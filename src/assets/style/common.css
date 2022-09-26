@@ -1,0 +1,137 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+blockquote,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+pre,
+form,
+fieldset,
+legend,
+button,
+input,
+textarea,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+}
+address,
+cite,
+dfn,
+em,
+var {
+  font-style: normal;
+}
+code,
+kbd,
+pre,
+samp {
+  font-family: couriernew, courier, monospace;
+}
+small {
+  font-size: 12px;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+a:hover {
+  text-decoration: none;
+}
+i {
+  font-style: normal;
+}
+sup {
+  vertical-align: text-top;
+}
+sub {
+  vertical-align: text-bottom;
+}
+legend {
+  color: #000;
+}
+fieldset,
+img {
+  border: 0;
+}
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+}
+/* 防止滚动条引起页面抖动 */
+/* body {
+  font-family: "Microsoft YaHei";
+ 
+  padding-left: calc(100vw - 100%);
+  user-select: none;
+} */
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+/*定义滚动条轨道*/
+::-webkit-scrollbar-track {
+  background-color: transparent;
+  -webkit-border-radius: 2em;
+  -moz-border-radius: 2em;
+  border-radius: 2em;
+}
+/*定义滑块 内阴影+圆角*/
+::-webkit-scrollbar-thumb {
+  background-color: #e1e2e5;
+  -webkit-border-radius: 2em;
+  -moz-border-radius: 2em;
+  border-radius: 2em;
+}
+.fr {
+  float: right;
+}
+.fl {
+  float: left;
+}
+/* 版心 */
+.warrper {
+  width: 1226px;
+  margin: 0 auto;
+}
+* {
+  box-sizing: border-box;
+}
+/* 自定义定制标题提示 */
+.tiptip {
+  padding: 0 10px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 20px;
+  color: #777777;
+  background-color: #f6f6f6;
+}
+body {
+  background-color: #eeeeee;
+}
